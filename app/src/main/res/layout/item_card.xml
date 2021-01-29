@@ -7,11 +7,11 @@
 
         <variable
             name="listener"
-            type="com.mati1.motionplayground.CardAdapter.CardClickListener" />
+            type="com.taghavi.scrumpoker.CardAdapter.CardClickListener" />
 
         <variable
             name="card"
-            type="com.mati1.motionplayground.Card" />
+            type="com.taghavi.scrumpoker.Card" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -20,8 +20,8 @@
         android:layout_margin="16dp">
 
         <com.google.android.material.card.MaterialCardView
-            android:layout_width="match_parent"
             style="@style/PokerCard"
+            android:layout_width="match_parent"
             android:layout_height="0dp"
             android:clickable="true"
             android:clipToPadding="false"
